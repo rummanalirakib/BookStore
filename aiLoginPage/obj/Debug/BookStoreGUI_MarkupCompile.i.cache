@@ -1,0 +1,20 @@
+﻿BookStoreGUI
+
+
+winexe
+C#
+.cs
+C:\Users\Rumman Ali\Documents\BookStoreNew\aiLoginPage\obj\Debug\
+BookStoreGUI
+none
+false
+DEBUG;TRACE
+C:\Users\Rumman Ali\Documents\BookStoreNew\aiLoginPage\App.xaml
+142065797126
+
+191686566866
+151031213074
+AddDeliveryAddressDialog.xaml;BookAddWindow.xaml;AddressPaymentDialog.xaml;ConfirmationDialog.xaml;CreateNewUser.xaml;DeleteUser.xaml;DisplayUserInfo.xaml;EditUserInfo.xaml;LoginDialog.xaml;MainWindow.xaml;OrderDetailsWindow.xaml;OrderItemDialog.xaml;PasswordChanging.xaml;PlaceAnOrder.xaml;
+
+True
+

@@ -1,0 +1,9 @@
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\bin\Debug\BookStoreDATA.dll.config
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\bin\Debug\BookStoreDATA.dll
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\bin\Debug\BookStoreDATA.pdb
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\obj\Debug\BookStoreDATA.csproj.AssemblyReference.cache
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\obj\Debug\BookStoreDATA.Properties.Resources.resources
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\obj\Debug\BookStoreDATA.csproj.GenerateResource.cache
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\obj\Debug\BookStoreDATA.csproj.CoreCompileInputs.cache
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\obj\Debug\BookStoreDATA.dll
+C:\Users\Rumman Ali\Documents\BookStoreNew\BookStoreDATA\obj\Debug\BookStoreDATA.pdb

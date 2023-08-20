@@ -1,0 +1,35 @@
+﻿<Window x:Class="BookStoreGUI.AddressPaymentDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStoreGUI"
+        mc:Ignorable="d"
+        Title="Payment/Address Information" Height="598" Width="796">
+
+    <Grid HorizontalAlignment="Left" Margin="10,10,0,4" Width="764">
+        <Label Content="Payment Information" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="199" FontSize="18" FontWeight="Bold"/>
+        <Label Content="User Name:" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Width="107" FontSize="14" Background="White"/>
+        <Label Content="Card Number:" HorizontalAlignment="Left" Margin="10,93,0,0" VerticalAlignment="Top" Width="107" FontSize="14"/>
+        <Label Content="CVV:" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top" Width="107" FontSize="14"/>
+        <Label Content="Expiration Date:" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="133,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621" Name="UserName" IsReadOnly="True" Background="LightGray"/>
+        <TextBox HorizontalAlignment="Left" Name="ExpirationBox" Height="29" Margin="133,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
+        <TextBox HorizontalAlignment="Left" Name="CVVBox" Height="29" Margin="133,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
+        <TextBox HorizontalAlignment="Left" Name="CardNumBox" Height="29" Margin="133,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
+        <Button Content="Add Payment Information" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" Width="340" Height="34" Click="AddPayButton_Click"/>
+        <Button Content="Remove Payment Information" HorizontalAlignment="Left" Margin="367,214,0,0" VerticalAlignment="Top" Width="387" Height="34" Click="RemovePayButton_Click"/>
+        <Label Content="Address Information" HorizontalAlignment="Left" Margin="10,281,0,0" VerticalAlignment="Top" Width="199" FontSize="18" FontWeight="Bold"/>
+        <Label Content="User Name:" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Width="107" FontSize="14" Background="White"/>
+        <Label Content="City:" Name="City" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Width="107" FontSize="14"/>
+        <Label Content="State:" Name="State" HorizontalAlignment="Left" Margin="10,398,0,0" VerticalAlignment="Top" Width="107" FontSize="14"/>
+        <Label Content="Address:" Name="Address" HorizontalAlignment="Left" Margin="10,432,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="133,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621" Name="UserName2" IsReadOnly="True" Background="LightGray"/>
+        <TextBox HorizontalAlignment="Left" Name="AddressBox" Height="29" Margin="133,432,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
+        <TextBox HorizontalAlignment="Left" Name="StateBox" Height="29" Margin="133,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621"/>
+        <TextBox HorizontalAlignment="Left" Name="CityBox" Height="29" Margin="133,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621" TextChanged="CityBox_TextChanged"/>
+        <Button Content="Add Address Information" HorizontalAlignment="Left" Margin="10,485,0,0" VerticalAlignment="Top" Width="340" Height="34" Click="AddAddressButton_Click"/>
+        <Button Content="Remove Address Information" HorizontalAlignment="Left" Margin="367,485,0,0" VerticalAlignment="Top" Width="387" Height="34" Click="RemoveAddressButton_Click"/>
+    </Grid>
+
+</Window>
